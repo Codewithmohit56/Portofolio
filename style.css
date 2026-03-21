@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-color: #ccc;  /*added 29/01*/
+    /* background-image: url("box3.jpg"); /*images added to background*/
+    /* background-size: cover;  */
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+     background-image: url("snow.jpg"); /* added images*/
+    background-size: contain;
+    color: black; /*added color*/
+    padding: 20px 0;
+    text-align: center;
+    text-align: left; /*added for home about link to left*/
+}
+/* added for text center */
+ .header-content{
+    text-align: center; /*for welcome and imag to center*/
+ }
+  /* #img{
+    display: flex;
+    justify-content: flex-start;
+  } */
+header h1 {
+    margin: 0;
+    text-align: center; /*added for about contact to center*/
+}
+nav {
+    margin: 20px 0;
+
+}
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    color: black; /*added color*/
+}
+
+nav a:hover {    /*  ADDED hover use show something when click it*/
+    text-decoration: underline;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 30px;
+    width: 100%;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
