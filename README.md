@@ -1,6 +1,6 @@
 ## Protfolio
 
-This is a portfolio website project that showcases the work and skills of an individual or organization. Below are the details of the project structure and its contents.
+This is a portfolio website project that showcases the work and skills. Below are the details of the project structure and its contents.
 
 ## Project Structure
 
